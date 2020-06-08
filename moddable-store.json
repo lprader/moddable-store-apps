@@ -1,0 +1,87 @@
+{
+	"tech.moddable.runmod-piu": {
+		"app": {
+			"title": "Piu host",
+			"author": "Moddable",
+			"description": "Host for applications using the Piu user interface framework",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu"
+		},
+		"mods": [
+			{
+				"path": "piu/helloworld",
+				"title": "Hello, World",
+				"description": "Basic Hello, World"
+			},
+			{
+				"path": "piu/helloworld-color",
+				"title": "Hello, World - Color",
+				"description": "Hello, World with colored background and text"
+			},
+			{
+				"path": "piu/helloworld-behavior",
+				"title": "Hello, World - Tappable",
+				"description": "Tap the screen to spell out Hello, World"
+			},
+			{
+				"path": "piu/helloworld-ticking",
+				"title": "Hello, World - Ticking",
+				"description": "Hello, World spelled out one letter at a time"
+			},
+			{
+				"path": "piu/js-icon",
+				"title": "JavaScript Logo",
+				"description": "Displays the JavaScript logo onscreen"
+			},
+			{
+				"path": "piu/keyboard",
+				"title": "Keyboard",
+				"description": "Displays an expanding onscreen keyboard designed for small screens"
+			},			
+			{
+				"path": "piu/scrolling-text",
+				"title": "Scrolling Text",
+				"description": "Scrolls content vertically"
+			},	
+			{
+				"path": "piu/multiple-screens",
+				"title": "Multiple Screens",
+				"description": "A starter app that demonstrates how to create applications with multiple screens"
+			},
+		]
+	},
+	"tech.moddable.runmod-commodetto": {
+		"app": {
+			"title": "Commodetto host",
+			"author": "Moddable",
+			"description": "Host for applications using the Commodetto graphics library",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-commodetto"
+		},
+		"mods": [
+			{
+				"path": "commodetto/random-rectangles",
+				"title": "Random Rectangles",
+				"description": "Renders randomly colored rectangles of random sizes at random locations"
+			},
+			{
+				"path": "commodetto/text-shadow",
+				"title": "Text Shadow",
+				"description": "Draws text with a drop shadow effect"
+			},
+			{
+				"path": "commodetto/wifi-icons",
+				"title": "Wi-Fi Icons",
+				"description": "Draws four Wi-Fi status icons to demonstrate how to draw a portion of an image"
+			},
+			{
+				"path": "commodetto/draw-jpeg",
+				"title": "JPEG",
+				"description": "Demonstrates how to decompress a full-screen (240 x 320) JPEG image directly to the screen"
+			},
+			{
+				"path": "commodetto/masked-image",
+				"title": "Train",
+				"description": "Create a spotlight effect around an image of a train using a circle mask"
+			},
+		]
+	},
+}
