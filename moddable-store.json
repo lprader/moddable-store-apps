@@ -49,7 +49,7 @@
 			},
 			{
 				"path": "piu/anchors",
-				"title": "Title",
+				"title": "Anchors",
 				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors."
 			},	
 			{
