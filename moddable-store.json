@@ -47,6 +47,71 @@
 				"title": "Multiple Screens",
 				"description": "A starter app that demonstrates how to create applications with multiple screens"
 			},
+			{
+				"path": "piu/anchors",
+				"title": "Title",
+				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors."
+			},	
+			{
+				"path": "piu/background-color",
+				"title": "Background Color",
+				"description": "Displays onscreen buttons that change the background color of the screen."
+			},	
+			{
+				"path": "piu/color-scheme",
+				"title": "Color Scheme",
+				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes."
+			},	
+			{
+				"path": "piu/colored-squares",
+				"title": "Colored Squares",
+				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays three different colored squares onscreen."
+			}
+			{
+				"path": "piu/counter",
+				"title": "Counter",
+				"description": "Tap the + button to increment the counter."
+			},	
+			{
+				"path": "piu/graph",
+				"title": "Graph",
+				"description": "Demonstrates how to efficiently render a real-time bar graph using a Piu Port object."
+			},	
+			{
+				"path": "piu/mask-icon",
+				"title": "Mask Icon",
+				"description": "Displays an icon stored as a mask."
+			},	
+			{
+				"path": "piu/nav-bar",
+				"title": "Navigation Bar",
+				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays a simple navigation bar."
+			},	
+			{
+				"path": "piu/rounded-buttons",
+				"title": "Rounded Buttons",
+				"description": "Creates rounded buttons of different sizes by tiling a single asset."
+			},	
+			{
+				"path": "piu/tiled-background",
+				"title": "Tiled Background",
+				"description": "Fills the entire screen by tiling a single asset."
+			},	
+			{
+				"path": "piu/timeline",
+				"title": "Timeline",
+				"description": "Demonstrates a basic use of the Piu Timeline class."
+			},	
+			{
+				"path": "piu/transitions",
+				"title": "Transitions",
+				"description": "Demonstrates a basic use of the built-in transitions that use the Piu Transition class."
+			},	
+			{
+				"path": "piu/wifi-status",
+				"title": "Wi-Fi Status Icon",
+				"description": "Displays an animated Wi-Fi status icon."
+			}
 		]
 	},
 	"tech.moddable.runmod-commodetto": {
