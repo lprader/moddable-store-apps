@@ -66,7 +66,7 @@
 				"path": "piu/colored-squares",
 				"title": "Colored Squares",
 				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays three different colored squares onscreen."
-			}
+			},
 			{
 				"path": "piu/counter",
 				"title": "Counter",
