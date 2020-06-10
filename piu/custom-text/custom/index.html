@@ -8,13 +8,13 @@
 	<script>
 		function getData() {
 			return {
-				"mod.js": {
+				"example.js": {
 					CUSTOM_TEXT: document.getElementById("CUSTOM_TEXT").value
 				},
 			};
 		}
 		function setData(data) {
-			const file = data["mod.js"];
+			const file = data["example.js"];
 			document.getElementById("CUSTOM_TEXT").value = file.CUSTOM_TEXT;
 		}
 	</script>
