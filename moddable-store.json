@@ -111,7 +111,12 @@
 				"path": "piu/wifi-status",
 				"title": "Wi-Fi Status Icon",
 				"description": "Displays an animated Wi-Fi status icon."
-			}
+			},
+			{
+				"path": "piu/custom-text",
+				"title": "Custom Text",
+				"description": "Displays custom text onscreen"
+			},
 		]
 	},
 	"tech.moddable.runmod-commodetto": {

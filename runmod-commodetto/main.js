@@ -13,8 +13,15 @@
  */
 
 import LoadMod from "loadmod";
+import Poco from "commodetto/Poco";
 
 export default function () {
+	let poco = new Poco(screen);
+	let white = poco.makeColor(255, 255, 255);
+	poco.begin();
+		poco.fillRectangle(white, 0, 0, poco.width, poco.height);
+	poco.end();
+
 	if (LoadMod.has("check")) {
 		let check = LoadMod.load("check");
 		check();

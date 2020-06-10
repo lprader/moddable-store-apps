@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line"><label>Text</label><input id="CUSTOM_TEXT" type="text" value=""></input></div>
+	<script>
+		function getData() {
+			return {
+				"mod.js": {
+					CUSTOM_TEXT: document.getElementById("CUSTOM_TEXT").value
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["mod.js"];
+			document.getElementById("CUSTOM_TEXT").value = file.CUSTOM_TEXT;
+		}
+	</script>
+</body>
