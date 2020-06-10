@@ -3,7 +3,7 @@
 		"app": {
 			"title": "Piu host",
 			"author": "Moddable",
-			"description": "Host for applications using the Piu user interface framework",
+			"description": "Host for applications that use the Piu user interface framework",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu"
 		},
 		"mods": [
@@ -118,7 +118,7 @@
 		"app": {
 			"title": "Commodetto host",
 			"author": "Moddable",
-			"description": "Host for applications using the Commodetto graphics library",
+			"description": "Host for applications that use the Commodetto graphics library",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-commodetto"
 		},
 		"mods": [
@@ -149,4 +149,19 @@
 			},
 		]
 	},
+	"tech.moddable.runmod-ble": {
+		"app": {
+			"title": "BLE host",
+			"author": "Moddable",
+			"description": "Host for applications that use BLE",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-ble"
+		},
+		"mods": [
+			{
+				"path": "ble/hrm",
+				"title": "Heart Rate Monitor",
+				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level."
+			},
+		]
+	}
 }
