@@ -204,7 +204,7 @@
 				"description": "Retrieves weather data from openweathermap.org and traces it to the console."
 			},
 			{
-				"path": "network/acccesspoint",
+				"path": "network/accesspoint",
 				"title": "Access Point",
 				"description": "Shows how to turn your device into an access point."
 			},
