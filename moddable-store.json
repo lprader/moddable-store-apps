@@ -167,6 +167,21 @@
 				"title": "Heart Rate Monitor",
 				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level."
 			},
+			{
+				"path": "ble/hrm-secure",
+				"title": "Heart Rate Monitor - Secure",
+				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level."
+			},
+			{
+				"path": "ble/scanner",
+				"title": "Scanner",
+				"description": "Implements a Central that scans for nearby Peripherals and traces their names to the console."
+			},
+			{
+				"path": "ble/text-client",
+				"title": "Text Client",
+				"description": "Implements a Central that connects to a Peripheral and receives text data via characteristic value change notifications."
+			},
 		]
-	}
+	},
 }
