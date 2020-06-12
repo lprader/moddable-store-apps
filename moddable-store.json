@@ -197,6 +197,12 @@
 				"title": "HTTP GET JSON",
 				"description": "Retrieves weather data from openweathermap.org and traces it to the console."
 			},
+		],
+		"preferences": [
+			{
+				"path": "wifi",
+				"title": "Wi-Fi",
+			},
 		]
 	}
 }
