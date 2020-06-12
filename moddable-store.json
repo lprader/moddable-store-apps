@@ -189,7 +189,13 @@
 			"title": "Network host",
 			"author": "Moddable",
 			"description": "Host for applications that use Wi-Fi and networking protocols including HTTP, WebSocket, and MQTT",
-			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-network"
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-network",
+			"preferences": [
+				{
+					"path": "wifi",
+					"title": "Wi-Fi",
+				},
+			]
 		},
 		"mods": [
 			{
@@ -198,11 +204,5 @@
 				"description": "Retrieves weather data from openweathermap.org and traces it to the console."
 			},
 		],
-		"preferences": [
-			{
-				"path": "wifi",
-				"title": "Wi-Fi",
-			},
-		]
 	}
 }
