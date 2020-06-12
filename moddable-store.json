@@ -200,9 +200,89 @@
 		"mods": [
 			{
 				"path": "network/http-get-json",
-				"title": "HTTP GET JSON",
+				"title": "HTTP GET - JSON",
 				"description": "Retrieves weather data from openweathermap.org and traces it to the console."
 			},
+			{
+				"path": "network/acccesspoint",
+				"title": "Access Point",
+				"description": "Shows how to turn your device into an access point."
+			},
+			{
+				"path": "network/http-get",
+				"title": "HTTP GET",
+				"description": "Performs an HTTP GET to get the home page from the web server www.example.com."
+			},
+			{
+				"path": "network/https-get",
+				"title": "HTTPS GET",
+				"description": "Performs an HTTPS GET to get the home page from the web server www.example.com."
+			},
+			{
+				"path": "network/http-post",
+				"title": "HTTP POST",
+				"description": "Makes a POST call to a web server with a JSON request body."
+			},
+			{
+				"path": "network/http-server-get",
+				"title": "HTTP Server GET",
+				"description": "Responds to each request with plain text that indicates the HTTP method used for the response and the path of the HTTP resource requested."
+			},
+			{
+				"path": "network/http-server-put",
+				"title": "HTTP Server PUT",
+				"description": "Creates a JSON echo server which replies to every message it receives by sending back that message."
+			},
+			{
+				"path": "network/http-streaming-get",
+				"title": "HTTP GET - Streaming",
+				"description": "Shows how to make a streaming HTTP GET request."
+			},
+			{
+				"path": "network/http-server-streaming-get",
+				"title": "HTTP Server GET - Streaming",
+				"description": "Shows how to stream a response. Generates a response of random length containing random integers from 1 to 100."
+			},
+			{
+				"path": "network/http-server-streaming-put",
+				"title": "HTTP Server PUT - Streaming",
+				"description": "Shows how to stream a request. Logs an arbitrarily large text request to the debug console."
+			},
+			{
+				"path": "network/mdns-advertise",
+				"title": "mDNS Advertise",
+				"description": "Shows how to advertise a service using mDNS."
+			},
+			{
+				"path": "network/mdns-claim-name",
+				"title": "mDNS Claim Name",
+				"description": "Shows the process of claiming a name for use on the local network."
+			},
+			{
+				"path": "network/mdns-discover",
+				"title": "mDNS Discover",
+				"description": "Shows how to search for all the web servers advertising on your local network using mDNS."
+			},
+			{
+				"path": "network/mqtt",
+				"title": "MQTT",
+				"description": "Creates an MQTT server that traces messages it receives to the console."
+			},
+			{
+				"path": "network/sntp",
+				"title": "SNTP",
+				"description": "Sets the time on the device using the current time pulled from the time server at pool.ntp.org."
+			},
+			{
+				"path": "network/websocket-client",
+				"title": "WebSocket Client",
+				"description": "Implements a WebSocket client designed to connect to an echo server"
+			},
+			{
+				"path": "network/websocket-server",
+				"title": "WebSocket Server",
+				"description": "Implements a WebSocket echo server"
+			},			
 		],
 	}
 }
