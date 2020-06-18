@@ -284,5 +284,61 @@
 				"description": "Implements a WebSocket echo server"
 			},			
 		],
+	},
+	"tech.moddable.runmod-hardware": {
+		"app": {
+			"title": "Hardware host",
+			"author": "Moddable",
+			"description": "Host for applications that use sensors and actuators",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-hardware",
+			"preferences": [
+				{
+					"path": "wifi",
+					"title": "Wi-Fi",
+				},
+			]
+		},
+		"mods": [
+			{
+				"path": "hardware/blink",
+				"title": "Blink",
+				"description": "Blinks the on-board LED"
+			},
+			{
+				"path": "hardware/button",
+				"title": "Button - on-board",
+				"description": "Reads the on-board button"
+			},
+			{
+				"path": "hardware/external-button",
+				"title": "Button - external",
+				"description": "Reads an external button"
+			},
+			{
+				"path": "hardware/servo",
+				"title": "Servo",
+				"description": "Rotates a servo from 0 degrees up to 180 degrees, 2.5 degrees at a time"
+			},
+			{
+				"path": "hardware/tmp102",
+				"title": "Temperature - TMP102",
+				"description": "Reads the temperature from a TMP102 sensor and traces the value in degrees Celsius to the debug console"
+			},
+			{
+				"path": "hardware/tmp102",
+				"title": "Temperature - TMP36",
+				"description": "Reads the temperature from a TMP36 sensor and traces the value in degrees Celsius to the debug console"
+			},
+			{
+				"path": "hardware/tricolor-led-digital",
+				"title": "Tricolor LED - digital",
+				"description": "Uses the Digital class to control a tri-color LED"
+			},
+			{
+				"path": "hardware/tricolor-led-pwm",
+				"title": "Tricolor LED - PWM",
+				"description": "Uses the PWM class to control a tri-color LED"
+			},			
+		]
 	}
 }
