@@ -291,12 +291,6 @@
 			"author": "Moddable",
 			"description": "Host for applications that use sensors and actuators",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-hardware",
-			"preferences": [
-				{
-					"path": "wifi",
-					"title": "Wi-Fi",
-				},
-			]
 		},
 		"mods": [
 			{
