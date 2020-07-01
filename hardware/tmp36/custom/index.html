@@ -2,9 +2,104 @@
 <head>
 	<meta charset="utf-8">
 	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+	<style type="text/css">
+		table {
+		 	padding: 0;border-collapse: collapse; 
+		}
+	  	table tr {
+		    border-top: 1px solid #cccccc;
+		    background-color: white;
+		    margin: 0;
+		    padding: 0; 
+		}
+	    table tr:nth-child(2n) {
+	      	background-color: #f8f8f8; 
+	  	}
+		table tr th {
+			font-weight: bold;
+			border: 1px solid #cccccc;
+			margin: 0;
+			padding: 6px 13px; 
+		}
+		table tr td {
+		    border: 1px solid #cccccc;
+		    margin: 0;
+		    padding: 6px 13px; }
+		table tr th :first-child, table tr td :first-child {
+		    margin-top: 0; }
+		table tr th :last-child, table tr td :last-child {
+		    margin-bottom: 0; 
+		}
+		.column-l {
+			width:50%; 
+			float:left; 
+			clear:none;
+		}
+		.column-r {
+			width:50%; 
+			float:right; 
+			clear:none;
+		}
+	  </style>
 </head>
 <body>
-	<img src="wiring.png" width="500px">
+	<div class="column-l">
+		<h3>ESP8266 wiring</h3>
+
+		<table>
+		<thead>
+		<tr>
+		<th>TMP36</th>
+		<th>ESP8266</th>
+		</tr>
+		</thead>
+
+		<tbody>
+		<tr>
+		<td>PWR</td>
+		<td>3V3</td>
+		</tr>
+		<tr>
+		<td>Analog</td>
+		<td>ADC0 (A0)</td>
+		</tr>
+		<tr>
+		<td>GND</td>
+		<td>GND</td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+
+	<div class="column-r">
+		<h3>ESP32 wiring</h3>
+
+		<table>
+		<thead>
+		<tr>
+		<th>TMP36</th>
+		<th>ESP32</th>
+		</tr>
+		</thead>
+
+		<tbody>
+		<tr>
+		<td>PWR</td>
+		<td>3V3</td>
+		</tr>
+		<tr>
+		<td>Analog</td>
+		<td>ADC0 (VP) on NodeMCU board<BR>ADC7 (GP35) on Moddable Two</td>
+		</tr>
+		<tr>
+		<td>GND</td>
+		<td>GND</td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+
+	<img src="wiring.png" width="100%">
 	<script>
 		function getData() {}
 		function setData(data) {}
