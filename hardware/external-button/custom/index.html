@@ -31,8 +31,9 @@
 		    margin-bottom: 0; 
 		}
 		.instructions {
-			width: 100%;
-			display: none
+			width: 500px;
+			float: left;
+			clear: none
 		}
 	  </style>
 </head>
@@ -94,11 +95,11 @@
 		function configure(info) {
 			let div;
 			if ("esp8266" === info.mcu) {
-				div = document.getElementById("esp8266-instructions");
-			} else {
 				div = document.getElementById("esp32-instructions");
+			} else {
+				div = document.getElementById("esp8266-instructions");
 			}
-			div.style.display = "block";
+			div.style.width = "0px";
 		}
 	</script>
 </body>
