@@ -30,20 +30,13 @@
 		table tr th :last-child, table tr td :last-child {
 		    margin-bottom: 0; 
 		}
-		.column-l {
-			width:50%; 
-			float:left; 
-			clear:none;
-		}
-		.column-r {
-			width:50%; 
-			float:right; 
-			clear:none;
+		.instructions {
+			width: 100%;
 		}
 	  </style>
 </head>
 <body>
-	<div class="column-l">
+	<div class="instructions" id="esp8266-instructions">
 		<h3>ESP8266 wiring</h3>
 
 		<table>
@@ -69,9 +62,10 @@
 		</tr>
 		</tbody>
 		</table>
+		<img src="wiring-esp8266.png" width="100%">
 	</div>
 
-	<div class="column-r">
+	<div class="instructions" id="esp32-instructions">
 		<h3>ESP32 wiring</h3>
 
 		<table>
@@ -97,11 +91,22 @@
 		</tr>
 		</tbody>
 		</table>
-	</div>
 
-	<img src="wiring.png" width="100%">
+		<img src="wiring-esp32.png" width="100%">
+	</div>
 	<script>
 		function getData() {}
 		function setData(data) {}
+		function configure(info) {
+			let div;
+			if ("esp8266" === info.mcu) {
+				div = document.getElementById("esp32-instructions");
+			} else {
+				div = document.getElementById("esp8266-instructions");
+			}
+			div.style.width = "0px";
+			div.style.height = "0px";
+			div.style.display = "none";
+		}
 	</script>
 </body>
