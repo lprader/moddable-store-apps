@@ -33,6 +33,7 @@
 		#esp32-instructions #esp8266-instructions {
 			width:500px;
 			clear: none;
+			display: none;
 		}
 	  </style>
 </head>
@@ -94,11 +95,11 @@
 		function configure(info) {
 			let div;
 			if ("esp8266" === info.mcu) {
-				div = document.getElementById("esp32-instructions");
-			} else {
 				div = document.getElementById("esp8266-instructions");
+			} else {
+				div = document.getElementById("esp32-instructions");
 			}
-			div.style.display = "none";
+			div.style.display = "block";
 		}
 	</script>
 </body>
