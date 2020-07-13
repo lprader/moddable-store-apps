@@ -119,6 +119,126 @@
 			},
 		]
 	},
+	"tech.moddable.runmod-piu-m5": {
+		"app": {
+			"title": "Piu host",
+			"author": "Moddable",
+			"description": "Host for applications that use the Piu user interface framework",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu"
+		},
+		"mods": [
+			{
+				"path": "piu/helloworld",
+				"title": "Hello, World",
+				"description": "Basic Hello, World"
+			},
+			{
+				"path": "piu/helloworld-color",
+				"title": "Hello, World - Color",
+				"description": "Hello, World with colored background and text"
+			},
+			{
+				"path": "piu/helloworld-behavior",
+				"title": "Hello, World - Tappable",
+				"description": "Tap the screen to spell out Hello, World"
+			},
+			{
+				"path": "piu/helloworld-ticking",
+				"title": "Hello, World - Ticking",
+				"description": "Hello, World spelled out one letter at a time"
+			},
+			{
+				"path": "piu/js-icon",
+				"title": "JavaScript Logo",
+				"description": "Displays the JavaScript logo onscreen"
+			},
+			{
+				"path": "piu/keyboard",
+				"title": "Keyboard",
+				"description": "Displays an expanding onscreen keyboard designed for small screens"
+			},			
+			{
+				"path": "piu/scrolling-text",
+				"title": "Scrolling Text",
+				"description": "Scrolls content vertically"
+			},	
+			{
+				"path": "piu/multiple-screens",
+				"title": "Multiple Screens",
+				"description": "A starter app that demonstrates how to create applications with multiple screens"
+			},
+			{
+				"path": "piu/anchors",
+				"title": "Anchors",
+				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors."
+			},	
+			{
+				"path": "piu/background-color",
+				"title": "Background Color",
+				"description": "Displays onscreen buttons that change the background color of the screen."
+			},	
+			{
+				"path": "piu/color-scheme",
+				"title": "Color Scheme",
+				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes."
+			},	
+			{
+				"path": "piu/colored-squares",
+				"title": "Colored Squares",
+				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays three different colored squares onscreen."
+			},
+			{
+				"path": "piu/counter",
+				"title": "Counter",
+				"description": "Tap the + button to increment the counter."
+			},	
+			{
+				"path": "piu/graph",
+				"title": "Graph",
+				"description": "Demonstrates how to efficiently render a real-time bar graph using a Piu Port object."
+			},	
+			{
+				"path": "piu/mask-icon",
+				"title": "Mask Icon",
+				"description": "Displays an icon stored as a mask."
+			},	
+			{
+				"path": "piu/nav-bar",
+				"title": "Navigation Bar",
+				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays a simple navigation bar."
+			},	
+			{
+				"path": "piu/rounded-buttons",
+				"title": "Rounded Buttons",
+				"description": "Creates rounded buttons of different sizes by tiling a single asset."
+			},	
+			{
+				"path": "piu/tiled-background",
+				"title": "Tiled Background",
+				"description": "Fills the entire screen by tiling a single asset."
+			},	
+			{
+				"path": "piu/timeline",
+				"title": "Timeline",
+				"description": "Demonstrates a basic use of the Piu Timeline class."
+			},	
+			{
+				"path": "piu/transitions",
+				"title": "Transitions",
+				"description": "Demonstrates a basic use of the built-in transitions that use the Piu Transition class."
+			},	
+			{
+				"path": "piu/wifi-status",
+				"title": "Wi-Fi Status Icon",
+				"description": "Displays an animated Wi-Fi status icon."
+			},
+			{
+				"path": "piu/custom-text",
+				"title": "Custom Text",
+				"description": "Displays custom text onscreen"
+			},
+		]
+	},
 	"tech.moddable.runmod-commodetto": {
 		"app": {
 			"title": "Commodetto host",
