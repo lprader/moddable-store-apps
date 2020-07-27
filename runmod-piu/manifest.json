@@ -8,7 +8,6 @@
 	    "autorotate": false,
 	},
 	"creation": {
-		"static": 35840,
 		"stack": 485,
 		"keys": {
 			"available": 96
@@ -49,13 +48,15 @@
 		"Proxy",
 		"Reflect",
 		"RegExp",
-		"Set",
 		"SharedArrayBuffer",
 		"WeakMap",
 		"WeakSet",
   	],
 	"platforms": {
 		"esp/moddable_one": {
+			"creation": {
+				"static": 35840
+			},
 			"config": {
 				"rotation": 90
 			}
@@ -66,6 +67,9 @@
 			},
 			"config": {
 				"rotation": 90
+			},
+			"creation": {
+				"static": 131072
 			}
 		},
 	}
