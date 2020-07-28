@@ -20,7 +20,7 @@ const TextStyle = Style.template({
 });
 const ReadyText = Label.template($ => ({ 
 	top: 20, bottom: 20, left: 20, right: 20, 
-	Style: TextStyle, string: "Ready to install apps!"
+	Style: TextStyle, string: "App running. Waiting for mod."
 }));
 
 class AppBehavior extends Behavior {
@@ -32,6 +32,7 @@ class AppBehavior extends Behavior {
 				LoadMod.load("example");
 		} else {
 			app.add(new ReadyText());
+			trace("App running. Waiting for mod.\n");
 		}
 	}
 }

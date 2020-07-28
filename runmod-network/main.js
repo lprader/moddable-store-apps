@@ -19,7 +19,7 @@ import Preference from "preference";
 
 export default function () {
 	if (!LoadMod.has("check") || !LoadMod.has("example"))
-		return trace("Host installed. Ready for mods.\n");
+		return trace("App running. Waiting for mod.\n");
 
 	(LoadMod.load("check"))();
 

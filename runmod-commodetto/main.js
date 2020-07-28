@@ -14,12 +14,17 @@
 
 import LoadMod from "loadmod";
 import Poco from "commodetto/Poco";
+import Resource from "Resource";
+import parseBMF from "commodetto/parseBMF";
 
 export default function () {
 	let poco = new Poco(screen);
+	let regular16 = parseBMF(new Resource("OpenSans-Regular-16.bf4"));
 	let white = poco.makeColor(255, 255, 255);
+	let black = poco.makeColor(0, 0, 0);
 	poco.begin();
 		poco.fillRectangle(white, 0, 0, poco.width, poco.height);
+		poco.drawText("App running. Waiting for mod.", regular16, black, 5, 145);
 	poco.end();
 
 	if (LoadMod.has("check")) {
@@ -28,6 +33,6 @@ export default function () {
 		if (LoadMod.has("example"))
 			LoadMod.load("example");
 	} else {
-		trace("Device flashed. Ready to install apps.\n");
+		trace("App running. Waiting for mod.\n");
 	}
 }

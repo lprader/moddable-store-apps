@@ -21,6 +21,6 @@ export default function () {
 		if (LoadMod.has("example"))
 			LoadMod.load("example");
 	} else {
-		trace("Device flashed. Ready to install apps.\n");
+		trace("App running. Waiting for mod.\n");
 	}
 }
