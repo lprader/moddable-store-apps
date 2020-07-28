@@ -2,118 +2,139 @@
 	"tech.moddable.runmod-piu": {
 		"app": {
 			"title": "Piu host",
-			"author": "Moddable",
+			"author": "Lizzie Prader",
 			"description": "Host for applications that use the Piu user interface framework",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu"
 		},
 		"mods": [
 			{
 				"path": "piu/helloworld",
+				"author": "Lizzie Prader",
 				"title": "Hello, World",
-				"description": "Basic Hello, World<BR><BR>This mod is from the book <a href='https://www.apress.com/us/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Basic Hello, World<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/helloworld-color",
+				"author": "Lizzie Prader",
 				"title": "Hello, World - Color",
-				"description": "Hello, World with colored background and text"
+				"description": "Hello, World with colored background and text<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/helloworld-behavior",
+				"author": "Lizzie Prader",
 				"title": "Hello, World - Tappable",
-				"description": "Tap the screen to spell out Hello, World"
+				"description": "Tap the screen to spell out Hello, World<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/helloworld-ticking",
+				"author": "Lizzie Prader",
 				"title": "Hello, World - Ticking",
-				"description": "Hello, World spelled out one letter at a time"
+				"description": "Hello, World spelled out one letter at a time<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/js-icon",
+				"author": "Lizzie Prader",
 				"title": "JavaScript Logo",
-				"description": "Displays the JavaScript logo onscreen"
+				"description": "Displays the JavaScript logo onscreen<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/keyboard",
+				"author": "Lizzie Prader",
 				"title": "Keyboard",
-				"description": "Displays an expanding onscreen keyboard designed for small screens"
+				"description": "Displays an expanding onscreen keyboard designed for small screens<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},			
 			{
 				"path": "piu/scrolling-text",
+				"author": "Lizzie Prader",
 				"title": "Scrolling Text",
-				"description": "Scrolls content vertically"
+				"description": "Scrolls content vertically<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/multiple-screens",
+				"author": "Lizzie Prader",
 				"title": "Multiple Screens",
-				"description": "A starter app that demonstrates how to create applications with multiple screens"
+				"description": "A starter app that demonstrates how to create applications with multiple screens<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/anchors",
+				"author": "Lizzie Prader",
 				"title": "Anchors",
-				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors."
+				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/background-color",
+				"author": "Lizzie Prader",
 				"title": "Background Color",
-				"description": "Displays onscreen buttons that change the background color of the screen."
+				"description": "Displays onscreen buttons that change the background color of the screen.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/color-scheme",
 				"title": "Color Scheme",
-				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes."
+				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/colored-squares",
+				"author": "Lizzie Prader",
 				"title": "Colored Squares",
-				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays three different colored squares onscreen."
+				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays three different colored squares onscreen.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/counter",
+				"author": "Lizzie Prader",
 				"title": "Counter",
-				"description": "Tap the + button to increment the counter."
+				"description": "Tap the + button to increment the counter.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/graph",
+				"author": "Lizzie Prader",
 				"title": "Graph",
-				"description": "Demonstrates how to efficiently render a real-time bar graph using a Piu Port object."
+				"description": "Demonstrates how to efficiently render a real-time bar graph using a Piu Port object.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/mask-icon",
+				"author": "Lizzie Prader",
 				"title": "Mask Icon",
-				"description": "Displays an icon stored as a mask."
+				"description": "Displays an icon stored as a mask.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/nav-bar",
+				"author": "Lizzie Prader",
 				"title": "Navigation Bar",
-				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays a simple navigation bar."
+				"description": "Demonstrates a basic use of Piu templates and \"instantiating data\". Displays a simple navigation bar.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/rounded-buttons",
+				"author": "Lizzie Prader",
 				"title": "Rounded Buttons",
-				"description": "Creates rounded buttons of different sizes by tiling a single asset."
+				"description": "Creates rounded buttons of different sizes by tiling a single asset.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/tiled-background",
+				"author": "Lizzie Prader",
 				"title": "Tiled Background",
-				"description": "Fills the entire screen by tiling a single asset."
+				"description": "Fills the entire screen by tiling a single asset.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/timeline",
+				"author": "Lizzie Prader",
 				"title": "Timeline",
-				"description": "Demonstrates a basic use of the Piu Timeline class."
+				"description": "Demonstrates a basic use of the Piu Timeline class.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/transitions",
+				"author": "Lizzie Prader",
 				"title": "Transitions",
-				"description": "Demonstrates a basic use of the built-in transitions that use the Piu Transition class."
+				"description": "Demonstrates a basic use of the built-in transitions that use the Piu Transition class.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
 			{
 				"path": "piu/wifi-status",
+				"author": "Lizzie Prader",
 				"title": "Wi-Fi Status Icon",
-				"description": "Displays an animated Wi-Fi status icon."
+				"description": "Displays an animated Wi-Fi status icon.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/custom-text",
+				"author": "Lizzie Prader",
 				"title": "Custom Text",
 				"description": "Displays custom text onscreen"
 			},
@@ -122,72 +143,81 @@
 	"tech.moddable.runmod-commodetto": {
 		"app": {
 			"title": "Commodetto host",
-			"author": "Moddable",
+			"author": "Peter Hoddie",
 			"description": "Host for applications that use the Commodetto graphics library",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-commodetto"
 		},
 		"mods": [
 			{
 				"path": "commodetto/random-rectangles",
+				"author": "Peter Hoddie",
 				"title": "Random Rectangles",
-				"description": "Renders randomly colored rectangles of random sizes at random locations"
+				"description": "Renders randomly colored rectangles of random sizes at random locations<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "commodetto/text-shadow",
+				"author": "Peter Hoddie",
 				"title": "Text Shadow",
-				"description": "Draws text with a drop shadow effect"
+				"description": "Draws text with a drop shadow effect<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "commodetto/wifi-icons",
+				"author": "Peter Hoddie",
 				"title": "Wi-Fi Icons",
-				"description": "Draws four Wi-Fi status icons to demonstrate how to draw a portion of an image"
+				"description": "Draws four Wi-Fi status icons to demonstrate how to draw a portion of an image<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "commodetto/draw-jpeg",
+				"author": "Peter Hoddie",
 				"title": "JPEG",
-				"description": "Demonstrates how to decompress a full-screen (240 x 320) JPEG image directly to the screen"
+				"description": "Demonstrates how to decompress a full-screen (240 x 320) JPEG image directly to the screen<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "commodetto/masked-image",
+				"author": "Peter Hoddie",
 				"title": "Train",
-				"description": "Create a spotlight effect around an image of a train using a circle mask"
+				"description": "Create a spotlight effect around an image of a train using a circle mask<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 		]
 	},
 	"tech.moddable.runmod-ble": {
 		"app": {
 			"title": "BLE host",
-			"author": "Moddable",
+			"author": "Lizzie Prader",
 			"description": "Host for applications that use BLE",
-			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-ble"
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-ble<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 		},
 		"mods": [
 			{
 				"path": "ble/hrm",
+				"author": "Brian Friedkin",
 				"title": "Heart Rate Monitor",
-				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level."
+				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "ble/hrm-secure",
+				"author": "Brian Friedkin",
 				"title": "Heart Rate Monitor - Secure",
-				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level."
+				"description": "Advertises the standard Heart Rate and Battery services, accepts connection requests from Centrals, sends notifications for simulated heart rate values, and responds to read requests from a Client for a simulated battery level.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "ble/scanner",
+				"author": "Brian Friedkin",
 				"title": "Scanner",
-				"description": "Implements a Central that scans for nearby Peripherals and traces their names to the console."
+				"description": "Implements a Central that scans for nearby Peripherals and traces their names to the console.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "ble/text-client",
+				"author": "Lizzie Prader",
 				"title": "Text Client",
-				"description": "Implements a Central that connects to a Peripheral and receives text data via characteristic value change notifications."
+				"description": "Implements a Central that connects to a Peripheral and receives text data via characteristic value change notifications.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 		]
 	},
 	"tech.moddable.runmod-network": {
 		"app": {
 			"title": "Network host",
-			"author": "Moddable",
+			"author": "Peter Hoddie",
 			"description": "Host for applications that use Wi-Fi and networking protocols including HTTP, WebSocket, and MQTT",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-network",
 			"preferences": [
@@ -200,138 +230,160 @@
 		"mods": [
 			{
 				"path": "network/http-get-json",
+				"author": "Peter Hoddie",
 				"title": "HTTP GET - JSON",
-				"description": "Retrieves weather data from openweathermap.org and traces it to the console."
+				"description": "Retrieves weather data from openweathermap.org and traces it to the console.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/accesspoint",
+				"author": "Peter Hoddie",
 				"title": "Access Point",
-				"description": "Shows how to turn your device into an access point."
+				"description": "Shows how to turn your device into an access point.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-get",
 				"title": "HTTP GET",
-				"description": "Performs an HTTP GET to get the home page from the web server www.example.com."
+				"description": "Performs an HTTP GET to get the home page from the web server www.example.com.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/https-get",
+				"author": "Peter Hoddie",
 				"title": "HTTPS GET",
-				"description": "Performs an HTTPS GET to get the home page from the web server www.example.com."
+				"description": "Performs an HTTPS GET to get the home page from the web server www.example.com.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-post",
+				"author": "Peter Hoddie",
 				"title": "HTTP POST",
-				"description": "Makes a POST call to a web server with a JSON request body."
+				"description": "Makes a POST call to a web server with a JSON request body.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-server-get",
+				"author": "Peter Hoddie",
 				"title": "HTTP Server GET",
-				"description": "Responds to each request with plain text that indicates the HTTP method used for the response and the path of the HTTP resource requested."
+				"description": "Responds to each request with plain text that indicates the HTTP method used for the response and the path of the HTTP resource requested.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-server-put",
+				"author": "Peter Hoddie",
 				"title": "HTTP Server PUT",
-				"description": "Creates a JSON echo server which replies to every message it receives by sending back that message."
+				"description": "Creates a JSON echo server which replies to every message it receives by sending back that message.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-streaming-get",
 				"title": "HTTP GET - Streaming",
-				"description": "Shows how to make a streaming HTTP GET request."
+				"description": "Shows how to make a streaming HTTP GET request.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-server-streaming-get",
+				"author": "Peter Hoddie",
 				"title": "HTTP Server GET - Streaming",
-				"description": "Shows how to stream a response. Generates a response of random length containing random integers from 1 to 100."
+				"description": "Shows how to stream a response. Generates a response of random length containing random integers from 1 to 100.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/http-server-streaming-put",
+				"author": "Peter Hoddie",
 				"title": "HTTP Server PUT - Streaming",
-				"description": "Shows how to stream a request. Logs an arbitrarily large text request to the debug console."
+				"description": "Shows how to stream a request. Logs an arbitrarily large text request to the debug console.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/mdns-advertise",
+				"author": "Peter Hoddie",
 				"title": "mDNS Advertise",
-				"description": "Shows how to advertise a service using mDNS."
+				"description": "Shows how to advertise a service using mDNS.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/mdns-claim-name",
+				"author": "Peter Hoddie",
 				"title": "mDNS Claim Name",
-				"description": "Shows the process of claiming a name for use on the local network."
+				"description": "Shows the process of claiming a name for use on the local network.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/mdns-discover",
+				"author": "Peter Hoddie",
 				"title": "mDNS Discover",
-				"description": "Shows how to search for all the web servers advertising on your local network using mDNS."
+				"description": "Shows how to search for all the web servers advertising on your local network using mDNS.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/mqtt",
+				"author": "Peter Hoddie",
 				"title": "MQTT",
-				"description": "Creates an MQTT client that traces messages it receives to the console."
+				"description": "Creates an MQTT client that traces messages it receives to the console.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/sntp",
+				"author": "Peter Hoddie",
 				"title": "SNTP",
-				"description": "Sets the time on the device using the current time pulled from the time server at pool.ntp.org."
+				"description": "Sets the time on the device using the current time pulled from the time server at pool.ntp.org.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/websocket-client",
 				"title": "WebSocket Client",
-				"description": "Implements a WebSocket client designed to connect to an echo server"
+				"description": "Implements a WebSocket client designed to connect to an echo server<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/websocket-server",
+				"author": "Peter Hoddie",
 				"title": "WebSocket Server",
-				"description": "Implements a WebSocket echo server"
+				"description": "Implements a WebSocket echo server<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},			
 		],
 	},
 	"tech.moddable.runmod-hardware": {
 		"app": {
 			"title": "Hardware host",
-			"author": "Moddable",
+			"author": "Lizzie Prader",
 			"description": "Host for applications that use sensors and actuators",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-hardware",
 		},
 		"mods": [
 			{
 				"path": "hardware/blink",
+				"author": "Lizzie Prader",
 				"title": "Blink",
-				"description": "Blinks the on-board LED"
+				"description": "Blinks the on-board LED<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "hardware/button",
+				"author": "Lizzie Prader",
 				"title": "Button - on-board",
-				"description": "Reads the on-board button"
+				"description": "Reads the on-board button<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "hardware/external-button",
+				"author": "Lizzie Prader",
 				"title": "Button - external",
-				"description": "Reads an external button"
+				"description": "Reads an external button<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "hardware/servo",
+				"author": "Lizzie Prader",
 				"title": "Servo",
-				"description": "Rotates a servo from 0 degrees up to 180 degrees, 2.5 degrees at a time"
+				"description": "Rotates a servo from 0 degrees up to 180 degrees, 2.5 degrees at a time<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "hardware/tmp102",
+				"author": "Lizzie Prader",
 				"title": "Temperature - TMP102",
-				"description": "Reads the temperature from a TMP102 sensor and traces the value in degrees Celsius to the debug console"
+				"description": "Reads the temperature from a TMP102 sensor and traces the value in degrees Celsius to the debug console<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
-				"path": "hardware/tmp102",
+				"path": "hardware/tmp36",
+				"author": "Lizzie Prader",
 				"title": "Temperature - TMP36",
-				"description": "Reads the temperature from a TMP36 sensor and traces the value in degrees Celsius to the debug console"
+				"description": "Reads the temperature from a TMP36 sensor and traces the value in degrees Celsius to the debug console<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "hardware/tricolor-led-digital",
+				"author": "Lizzie Prader",
 				"title": "Tricolor LED - digital",
-				"description": "Uses the Digital class to control a tri-color LED"
+				"description": "Uses the Digital class to control a tri-color LED<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "hardware/tricolor-led-pwm",
+				"author": "Lizzie Prader",
 				"title": "Tricolor LED - PWM",
-				"description": "Uses the PWM class to control a tri-color LED"
+				"description": "Uses the PWM class to control a tri-color LED<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},			
 		]
 	}
