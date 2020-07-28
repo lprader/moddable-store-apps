@@ -18,12 +18,6 @@
 			"./main",
 			"./../loadmod/*",
 		],
-		"pins/*": [
-			"$(MODULES)/pins/i2s/*"
-		],
-		"piu/Sound": [
-			"$(MODULES)/piu/MC/piuSound"
-		]
 	},
 	"preload": [
 		"loadmod",
@@ -56,6 +50,14 @@
 		"esp/moddable_one": {
 			"config": {
 				"rotation": 90
+			},
+			"modules": {
+				"pins/*": [
+					"$(MODULES)/pins/i2s/*"
+				],
+				"piu/Sound": [
+					"$(MODULES)/piu/MC/piuSound"
+				]				
 			}
 		},
 		"esp32": {
@@ -64,6 +66,14 @@
 			},
 			"config": {
 				"rotation": 90
+			},
+			"modules": {
+				"pins/*": [
+					"$(MODULES)/pins/i2s/*"
+				],
+				"piu/Sound": [
+					"$(MODULES)/piu/MC/piuSound"
+				]				
 			},
 			"creation": {
 				"static": 131072
