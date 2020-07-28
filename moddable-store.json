@@ -266,7 +266,7 @@
 			{
 				"path": "network/mqtt",
 				"title": "MQTT",
-				"description": "Creates an MQTT server that traces messages it receives to the console."
+				"description": "Creates an MQTT client that traces messages it receives to the console."
 			},
 			{
 				"path": "network/sntp",
