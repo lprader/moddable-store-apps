@@ -21,15 +21,18 @@ const CHARACTERISTIC_UUID = uuid`6E400003B5A3F393E0A9E50E24DCCA9E`;
 
 class TextClient extends BLEClient {
 	onReady() {
+		trace(`Waiting for peripheral with text data characteristic...\n`);
 		this.startScanning();
 	}
 	onDiscovered(device) {
 		if (PERIPHERAL_NAME === device.scanResponse.completeName) {
+			trace(`Peripheral found.\n`);
 			this.stopScanning();
 			this.connect(device);
 		}
 	}
 	onConnected(device) {
+		trace(`Looking for primary service...\n`);
 		device.discoverPrimaryService(SERVICE_UUID);
 	}
 	onServices(services) {

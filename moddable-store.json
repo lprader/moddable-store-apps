@@ -10,7 +10,7 @@
 			{
 				"path": "piu/helloworld",
 				"title": "Hello, World",
-				"description": "Basic Hello, World"
+				"description": "Basic Hello, World<BR><BR>This mod is from the book <a href='https://www.apress.com/us/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "piu/helloworld-color",

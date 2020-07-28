@@ -16,6 +16,7 @@ import BLEClient from "bleclient";
 
 class Scanner extends BLEClient {
 	onReady() {
+		trace(`Starting scan...\n`);
 		this.startScanning();
 	}
 	onDiscovered(device) {
