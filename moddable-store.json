@@ -69,6 +69,7 @@
 			},	
 			{
 				"path": "piu/color-scheme",
+				"author": "Lizzie Prader",
 				"title": "Color Scheme",
 				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes.<BR><BR>From the book <a href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},	
