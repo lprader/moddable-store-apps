@@ -54,9 +54,6 @@
   	],
 	"platforms": {
 		"esp/moddable_one": {
-			"creation": {
-				"static": 35840
-			},
 			"config": {
 				"rotation": 90
 			}

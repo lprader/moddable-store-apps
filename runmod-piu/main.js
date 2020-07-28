@@ -16,11 +16,11 @@ import LoadMod from "loadmod";
 
 const TextStyle = Style.template({
     font: "24px Open Sans",
-    color: "black"
+    color: "black",
 });
-const ReadyText = Label.template($ => ({ 
-	top: 20, bottom: 20, left: 20, right: 20, 
-	Style: TextStyle, string: "App running. Waiting for mod."
+const ReadyText = Text.template($ => ({ 
+	top: 80, left: 20, right: 20,
+	Style: TextStyle, string: "App running.\nWaiting for mod."
 }));
 
 class AppBehavior extends Behavior {
