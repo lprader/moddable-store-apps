@@ -3,7 +3,7 @@
 		"app": {
 			"title": "Piu host",
 			"author": "Lizzie Prader",
-			"description": "Host for applications that use the Piu user interface framework",
+			"description": "Host for applications that use the <a href='https://github.com/Moddable-OpenSource/moddable/blob/public/documentation/piu/piu.md'>Piu user interface framework</a>",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu"
 		},
 		"mods": [
@@ -145,7 +145,7 @@
 		"app": {
 			"title": "Commodetto host",
 			"author": "Peter Hoddie",
-			"description": "Host for applications that use the Commodetto graphics library",
+			"description": "Host for applications that use the <a href='https://github.com/Moddable-OpenSource/moddable/blob/public/documentation/commodetto/commodetto.md'>Commodetto graphics library</a>",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-commodetto"
 		},
 		"mods": [
