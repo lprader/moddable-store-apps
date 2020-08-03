@@ -12,13 +12,9 @@
  *
  */
 
-import {Server as HTTPServer} from "http";
+import WiFi from "wifi";
 
-(new HTTPServer).callback = function(msg, value) {
-	if (HTTPServer.prepareResponse === msg) {
-		return {
-			headers: ["Content-Type", "text/plain"],
-			body: "hello"
-		};
-	}
-}
+WiFi.accessPoint({
+	ssid: "ESP8266",
+	password: "12345678"
+});
