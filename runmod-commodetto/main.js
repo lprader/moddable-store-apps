@@ -24,7 +24,8 @@ export default function () {
 	let black = poco.makeColor(0, 0, 0);
 	poco.begin();
 		poco.fillRectangle(white, 0, 0, poco.width, poco.height);
-		poco.drawText("App running. Waiting for mod.", regular16, black, 5, 145);
+		poco.drawText("Commodetto app running.", regular16, black, 19, 135);
+		poco.drawText("Ready to install mod.", regular16, black, 38, 152);
 	poco.end();
 
 	if (LoadMod.has("check")) {
@@ -33,6 +34,6 @@ export default function () {
 		if (LoadMod.has("example"))
 			LoadMod.load("example");
 	} else {
-		trace("App running. Waiting for mod.\n");
+		trace("Commodetto app running. Ready to install mod.\n");
 	}
 }

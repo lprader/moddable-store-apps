@@ -19,7 +19,7 @@ import Preference from "preference";
 
 export default function () {
 	if (!LoadMod.has("check") || !LoadMod.has("example"))
-		return trace("App running. Waiting for mod.\n");
+		trace("Network app running. Ready to install mod.\n");
 
 	(LoadMod.load("check"))();
 

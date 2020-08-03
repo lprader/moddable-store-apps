@@ -1,7 +1,7 @@
 {
 	"tech.moddable.runmod-piu": {
 		"app": {
-			"title": "Piu host",
+			"title": "Piu Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use the Piu user interface framework",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu"
@@ -188,7 +188,7 @@
 	},
 	"tech.moddable.runmod-commodetto": {
 		"app": {
-			"title": "Commodetto host",
+			"title": "Commodetto Host",
 			"author": "Peter Hoddie",
 			"description": "Host for applications that use the Commodetto graphics library",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-commodetto"
@@ -228,7 +228,7 @@
 	},
 	"tech.moddable.runmod-ble": {
 		"app": {
-			"title": "BLE host",
+			"title": "BLE Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use BLE",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-ble<BR><BR>From the book IoT Development for ESP32 and ESP8266 with JavaScript"
@@ -262,7 +262,7 @@
 	},
 	"tech.moddable.runmod-network": {
 		"app": {
-			"title": "Network host",
+			"title": "Network Host",
 			"author": "Peter Hoddie",
 			"description": "Host for applications that use Wi-Fi and networking protocols including HTTP, WebSocket, and MQTT",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-network",
@@ -377,7 +377,7 @@
 	},
 	"tech.moddable.runmod-hardware": {
 		"app": {
-			"title": "Hardware host",
+			"title": "Hardware Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use sensors and actuators",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-hardware",

@@ -20,7 +20,7 @@ const TextStyle = Style.template({
 });
 const ReadyText = Text.template($ => ({ 
 	top: 80, left: 20, right: 20,
-	Style: TextStyle, string: "App running.\nWaiting for mod."
+	Style: TextStyle, string: "Piu app running.\nReady to install mod."
 }));
 
 class AppBehavior extends Behavior {
@@ -32,7 +32,7 @@ class AppBehavior extends Behavior {
 				LoadMod.load("example");
 		} else {
 			app.add(new ReadyText());
-			trace("App running. Waiting for mod.\n");
+			trace("Piu app running. Ready to install mod.\n");
 		}
 	}
 }
