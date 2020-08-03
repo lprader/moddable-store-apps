@@ -4,7 +4,8 @@
 	},
 	"resources": {
 		"*": [
-			"./ca107"
+			"$(MODDABLE)/modules/crypt/data/ca106",
+			"$(MODDABLE)/modules/crypt/data/ca107"
 		]
 	}
 }
