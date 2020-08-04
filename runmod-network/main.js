@@ -17,8 +17,10 @@ import WiFi from "wifi";
 import Net from "net";
 
 export default function () {
-	if (!LoadMod.has("check") || !LoadMod.has("example"))
+	if (!LoadMod.has("check") || !LoadMod.has("example")) {
 		trace("Network app running. Ready to install mod.\n");
+		return;
+	}
 
 	(LoadMod.load("check"))();
 
