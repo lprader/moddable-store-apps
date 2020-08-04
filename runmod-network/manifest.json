@@ -26,7 +26,8 @@
 			"$(MODULES)/crypt/digest/*",
 			"$(MODULES)/crypt/digest/kcl/*",
 			"$(MODULES)/network/mqtt/*"
-		]
+		],
+		"dns/server": "$(MODULES)/network/dns/dnsserver"
 	},
 	"preload": [
 		"http",

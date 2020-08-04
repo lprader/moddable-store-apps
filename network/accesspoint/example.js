@@ -13,8 +13,24 @@
  */
 
 import WiFi from "wifi";
+import Net from "net";
+import DNSServer from "dns/server";
+import {Server as HTTPServer} from "http";
 
 WiFi.accessPoint({
-	ssid: "ESP8266",
-	password: "12345678"
+	ssid: "South Village",
 });
+
+new DNSServer(function(msg, value) {
+	if (DNSServer.resolve === msg)
+		return Net.get("IP");
+});
+
+(new HTTPServer).callback = function(msg, value) {
+	if (HTTPServer.prepareResponse === msg) {
+		return {
+			headers: ["Content-Type", "text/plain"],
+			body: "hello"
+		};
+	}
+}
