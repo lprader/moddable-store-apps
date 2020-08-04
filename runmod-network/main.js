@@ -18,31 +18,38 @@ import Net from "net";
 import Preference from "preference";
 
 export default function () {
+	const ssid = Preference.get("wifi", "ssid")
+	const password = Preference.get("wifi", "password")
+
 	if (!LoadMod.has("check") || !LoadMod.has("example")) {
 		trace("Network app running. Ready to install mod.\n");
 		return;
 	}
 
+	if (!ssid) {
+		trace("Wi-Fi SSID not set.\n");
+		return;
+	}
+
 	(LoadMod.load("check"))();
 
-	let ssid = Preference.get("wifi", "ssid") 
-	let password = Preference.get("wifi", "password") 
+	trace(`Connecting to "${ssid}"\n`);
 	let monitor = new WiFi({ssid, password}, function(msg, code) {
-		   switch (msg) {
-			   case "gotIP":
-					trace(`IP address ${Net.get("IP")}\n`);
-					monitor.close();
+		switch (msg) {
+			case "gotIP":
+				trace(`IP address ${Net.get("IP")}\n`);
+				monitor.close();
 
-					LoadMod.load("example");
-					break;
+				LoadMod.load("example");
+				break;
 
-				case "connect":
-					trace(`Wi-Fi connected to "${Net.get("SSID")}"\n`);
-					break;
+			case "connect":
+				trace(`Wi-Fi connected to "${Net.get("SSID")}"\n`);
+				break;
 
-				case "disconnect":
-					trace((-1 === code) ? "Wi-Fi password rejected\n" : "Wi-Fi disconnected\n");
-					break;
-			}
-		});
+			case "disconnect":
+				trace((-1 === code) ? "Wi-Fi password rejected\n" : "Wi-Fi disconnected\n");
+				break;
+		}
+	});
 }

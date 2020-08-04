@@ -15,6 +15,10 @@
 		"XS_MODS": 1
 	},
 	"modules": {
+		"~": [
+			"$(BUILD)/devices/esp/setup/network",
+			"$(BUILD)/devices/esp32/setup/network"
+		],
 		"*": [
 			"./main",
 			"./../loadmod/*",
