@@ -15,6 +15,7 @@
 import LoadMod from "loadmod";
 import WiFi from "wifi";
 import Net from "net";
+import Preference from "preference";
 
 export default function () {
 	if (!LoadMod.has("check") || !LoadMod.has("example")) {
@@ -24,32 +25,24 @@ export default function () {
 
 	(LoadMod.load("check"))();
 
-	if (LoadMod.has("mod/config")) {
-		const config = LoadMod.load("mod/config");
-		if (config.ssid) {
-			WiFi.mode = 1;
+	let ssid = Preference.get("wifi", "ssid") 
+	let password = Preference.get("wifi", "password") 
+	let monitor = new WiFi({ssid, password}, function(msg, code) {
+		   switch (msg) {
+			   case "gotIP":
+					trace(`IP address ${Net.get("IP")}\n`);
+					monitor.close();
 
-			let monitor = new WiFi({ssid: config.ssid, password: config.password}, function(msg, code) {
-			   switch (msg) {
-				   case "gotIP":
-						trace(`IP address ${Net.get("IP")}\n`);
-						monitor.close();
+					LoadMod.load("example");
+					break;
 
-						LoadMod.load("example");
-						break;
+				case "connect":
+					trace(`Wi-Fi connected to "${Net.get("SSID")}"\n`);
+					break;
 
-					case "connect":
-						trace(`Wi-Fi connected to "${Net.get("SSID")}"\n`);
-						break;
-
-					case "disconnect":
-						trace((-1 === code) ? "Wi-Fi password rejected\n" : "Wi-Fi disconnected\n");
-						break;
-				}
-			});
-			return;
-		}
-	}
-
-	LoadMod.load("example");
+				case "disconnect":
+					trace((-1 === code) ? "Wi-Fi password rejected\n" : "Wi-Fi disconnected\n");
+					break;
+			}
+		});
 }
