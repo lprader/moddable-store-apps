@@ -186,7 +186,7 @@
 			"title": "BLE Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use BLE",
-			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-ble<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-ble"
 		},
 		"mods": [
 			{
