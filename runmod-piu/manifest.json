@@ -5,7 +5,7 @@
 		"$(MODDABLE)/modules/input/expanding-keyboard/horizontal/manifest.json"
 	],
 	"config": {
-	    "autorotate": false,
+	    "autorotate": false
 	},
 	"creation": {
 		"stack": 485,
@@ -16,18 +16,18 @@
 	"modules": {
 		"*": [
 			"./main",
-			"./../loadmod/*",
-		],
+			"./../loadmod/*"
+		]
 	},
 	"preload": [
 		"loadmod",
-		"main",
+		"main"
 	],
 	"resources": {
 		"*-alpha": [
 			"./OpenSans-Regular-24",
 			"./OpenSans-Semibold-16"
-		],
+		]
 	},
 	"defines": {
 		"XS_MODS": 1
@@ -44,7 +44,7 @@
 		"RegExp",
 		"SharedArrayBuffer",
 		"WeakMap",
-		"WeakSet",
+		"WeakSet"
   	],
 	"platforms": {
 		"esp/moddable_one": {
@@ -78,6 +78,6 @@
 			"creation": {
 				"static": 131072
 			}
-		},
+		}
 	}
 }

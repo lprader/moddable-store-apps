@@ -138,7 +138,7 @@
 				"author": "Lizzie Prader",
 				"title": "Custom Text",
 				"description": "Displays custom text onscreen"
-			},
+			}
 		]
 	},
 	"tech.moddable.runmod-commodetto": {
@@ -178,7 +178,7 @@
 				"author": "Peter Hoddie",
 				"title": "Train",
 				"description": "Create a spotlight effect around an image of a train using a circle mask<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
-			},
+			}
 		]
 	},
 	"tech.moddable.runmod-ble": {
@@ -212,7 +212,7 @@
 				"author": "Lizzie Prader",
 				"title": "Text Client",
 				"description": "Implements a Central that connects to a Peripheral and receives text data via characteristic value change notifications.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
-			},
+			}
 		]
 	},
 	"tech.moddable.runmod-network": {
@@ -225,7 +225,7 @@
 				{
 					"path": "wifi",
 					"title": "Wi-Fi",
-				},
+				}
 			]
 		},
 		"mods": [
@@ -327,15 +327,15 @@
 				"author": "Peter Hoddie",
 				"title": "WebSocket Server",
 				"description": "Implements a WebSocket echo server<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
-			},			
-		],
+			}	
+		]
 	},
 	"tech.moddable.runmod-hardware": {
 		"app": {
 			"title": "Hardware Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use sensors and actuators",
-			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-hardware",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-hardware"
 		},
 		"mods": [
 			{
@@ -385,7 +385,7 @@
 				"author": "Lizzie Prader",
 				"title": "Tricolor LED - PWM",
 				"description": "Uses the PWM class to control a tri-color LED<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
-			},			
+			}	
 		]
 	}
 }

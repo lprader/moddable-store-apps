@@ -3,20 +3,24 @@
 		"$(MODDABLE)/examples/manifest_base.json",
 		"$(MODDABLE)/modules/network/ble/manifest_server.json",
 		"$(MODDABLE)/modules/network/ble/manifest_client.json",
+		"$(MODDABLE)/examples/manifest_net.json"
 	],
 	"defines": {
 		"XS_MODS": 1
 	},
 	"modules": {
+		"~": [
+			"$(BUILD)/devices/esp32/setup/network"
+		],
 		"*": [
 			"./main",
-			"./../loadmod/*",
+			"./../loadmod/*"
 		]
 	},
 	"ble":{
 		"*": [
-			"./bleservices/*",
-		],
+			"./bleservices/*"
+		]
 	},
-	"strip": [],
+	"strip": []
 }

@@ -4,7 +4,7 @@
 		"$(MODDABLE)/examples/manifest_net.json",
 		"$(MODDABLE)/modules/network/mdns/manifest.json",
 		"$(MODDABLE)/modules/crypt/tls.json",
-		"$(MODDABLE)/modules/files/preference/manifest.json",
+		"$(MODDABLE)/modules/files/preference/manifest.json"
 	],
 	"creation": {
 		"keys": {

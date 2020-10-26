@@ -5,18 +5,18 @@
 		"$(MODULES)/pins/digital/monitor/manifest.json",
 		"$(MODULES)/pins/analog/manifest.json",
 		"$(MODULES)/pins/servo/manifest.json",
-		"$(MODULES)/pins/i2c/manifest.json",
+		"$(MODULES)/pins/i2c/manifest.json"
 	],
 	"defines": {
-		"XS_MODS": 1,
+		"XS_MODS": 1
 	},
 	"modules": {
 		"*": [
 			"./main",
-			"./../loadmod/*",
+			"./../loadmod/*"
 		],
 		"pins/pwm": "$(MODULES)/pins/pwm/pwm",
-		"pins/smbus": "$(MODULES)/pins/smbus/smbus",
+		"pins/smbus": "$(MODULES)/pins/smbus/smbus"
 	},
 	"platforms": {
 		"esp": {
