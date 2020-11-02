@@ -32,15 +32,14 @@ class AppBehavior extends Behavior {
 				LoadMod.load("example");
 		} else {
 			app.add(new ReadyText());
-			trace("Piu app running. Ready to install mod.\n");
 		}
 	}
 }
 
 export default function() {
 	return new Application(null, {
-		displayListLength: 8192,
-		commandListLength: 4096,
+		displayListLength: 5632,
+		commandListLength: 3072,
 		skin: new Skin({
 			fill: "white"
 		}),
