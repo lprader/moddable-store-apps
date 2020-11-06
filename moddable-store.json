@@ -219,7 +219,7 @@
 		"app": {
 			"title": "Network Host",
 			"author": "Peter Hoddie",
-			"description": "Host for applications that use Wi-Fi and networking protocols including HTTP, WebSocket, and MQTT",
+			"description": "Host for applications that use Wi&#8209;Fi and networking protocols including HTTP, WebSocket, and MQTT",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-network",
 			"preferences": [
 				{
