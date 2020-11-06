@@ -327,6 +327,12 @@
 				"author": "Peter Hoddie",
 				"title": "WebSocket Server",
 				"description": "Implements a WebSocket echo server<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+			},
+			{
+				"path": "network/wifi-scan",
+				"author": "Peter Hoddie",
+				"title": "Wi-Fi Scan",
+				"description": "Scans for available Wi-Fi networks and traces their names to the console."
 			}	
 		]
 	},
