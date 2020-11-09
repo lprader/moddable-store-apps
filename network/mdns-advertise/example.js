@@ -33,6 +33,8 @@ let mdns = new MDNS({
 let server = new Server({port: 80});
 server.callback = function(msg, value, etc) {
 	if (Server.status == msg) {
+		if ("/favicon.ico" !== value) 
+			trace(`Path: ${value}\n`);
 		this.path = value;
 		this.method = etc;
 	}
