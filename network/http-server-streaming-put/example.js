@@ -13,9 +13,9 @@
  */
 
 import {Server} from "http";
+import Net from "net";
 
 let server = new Server;
-
 server.callback = function(msg, value) {
 	switch (msg) {
 		case Server.status:
@@ -34,3 +34,5 @@ server.callback = function(msg, value) {
 			break;
 	}
 }
+
+trace(`Enter the following curl command (filling in the directory path) to try out the server:\n curl --data-binary "@/Users/<directory_path>/test.txt" http://${Net.get("IP")}/test.txt -v\n`);

@@ -13,6 +13,7 @@
  */
 
 import {Server} from "http";
+import Net from "net";
 
 let server = new Server;
 
@@ -41,4 +42,6 @@ server.callback = function(msg, value, etc) {
 			};
 	}
 }
+
+trace(`Enter the following curl command to try out the server:\n curl http://${Net.get("IP")}/json --request PUT --header "Content-Type: application/json" --data '{"example": "data", "value": 101}'`);
 

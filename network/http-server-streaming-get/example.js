@@ -13,9 +13,9 @@
  */
 
 import {Server} from "http";
+import Net from "net";
 
 let server = new Server;
-
 server.callback = function(msg, value) {
     if (Server.prepareResponse === msg)
         return {
@@ -29,3 +29,6 @@ server.callback = function(msg, value) {
         return i + "\n";
 	} 
 }
+
+trace(`Open http://${Net.get("IP")} in your browser to try out the server\n`);
+

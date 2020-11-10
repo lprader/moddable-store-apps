@@ -13,6 +13,7 @@
  */
 
 import {Server} from "http";
+import Net from "net";
 
 let server = new Server({port: 80});
 server.callback = function(msg, value, etc) {
@@ -26,3 +27,5 @@ server.callback = function(msg, value, etc) {
 			body: `hello. path "${this.path}". method "${this.method}".`
 		};
 }
+
+trace(`Open http://${Net.get("IP")} in your browser to try out the server\n`);

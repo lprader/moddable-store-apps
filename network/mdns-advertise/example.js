@@ -14,6 +14,7 @@
 
 import MDNS from "mdns";
 import {Server} from "http";
+import Net from "net";
 
 let httpService = {
 	name: "http",
@@ -25,8 +26,10 @@ let mdns = new MDNS({
 		hostName: "server"
 	},
 	function(msg, value) {
-		if ((MDNS.hostName === msg) && value)
+		if ((MDNS.hostName === msg) && value) {
 			mdns.add(httpService);
+			trace(`Open http://server.local in your browser to try out the server\n`);
+		}
 	}
 );
 
@@ -44,3 +47,4 @@ server.callback = function(msg, value, etc) {
 			body: `Hello. ${new Date}`
 		};
 }
+

@@ -291,7 +291,7 @@
 				"path": "network/mdns-advertise",
 				"author": "Peter Hoddie",
 				"title": "mDNS Advertise",
-				"description": "Shows how to advertise a service using mDNS.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Shows how to advertise an HTTP service using mDNS.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			},
 			{
 				"path": "network/mdns-claim-name",
