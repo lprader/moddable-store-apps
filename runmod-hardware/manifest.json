@@ -45,8 +45,5 @@
 			"error": "Platform not supported"
 		}
 	},
-	"strip": [],
-	"build": {
-		"NAME": "ch6host"
-	}
+	"strip": []
 }

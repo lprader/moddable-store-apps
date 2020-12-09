@@ -18,8 +18,5 @@
 			"./bleservices/*"
 		]
 	},
-	"strip": [],
-	"build": {
-		"NAME": "ch4host"
-	}
+	"strip": []
 }

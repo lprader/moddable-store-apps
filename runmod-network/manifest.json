@@ -51,9 +51,6 @@
 		"WeakMap",
 		"WeakSet"
 	],
-	"build": {
-		"NAME": "ch3host"
-	},
 	"platforms": {
 		"esp": {
 			"modules": {
