@@ -4,14 +4,14 @@
 		"$(MODDABLE)/examples/manifest_piu.json",
 		"$(MODDABLE)/modules/input/expanding-keyboard/horizontal/manifest.json"
 	],
+	"config": {
+	    "autorotate": false
+	},
 	"creation": {
 		"stack": 300,
 		"keys": {
 			"available": 96
 		}
-	},
-	"defines": {
-		"XS_MODS": 1
 	},
 	"modules": {
 		"*": [
@@ -19,27 +19,65 @@
 			"./../loadmod/*"
 		]
 	},
+	"preload": [
+		"loadmod",
+		"main"
+	],
 	"resources": {
 		"*-alpha": [
 			"./OpenSans-Regular-24",
 			"./OpenSans-Semibold-16"
 		]
 	},
+	"defines": {
+		"XS_MODS": 1
+	},
+	"strip": [
+		"Atomics",
+		"BigInt",
+		"eval",
+		"Function",
+		"Generator",
+		"Promise",
+		"Proxy",
+		"Reflect",
+		"RegExp",
+		"SharedArrayBuffer",
+		"WeakMap",
+		"WeakSet"
+  	],
 	"platforms": {
-		"esp": {
+		"esp/moddable_one": {
 			"config": {
 				"rotation": 90
+			},
+			"modules": {
+				"pins/*": [
+					"$(MODULES)/pins/i2s/*"
+				],
+				"piu/Sound": [
+					"$(MODULES)/piu/MC/piuSound"
+				]				
 			}
 		},
 		"esp32": {
+			"build": {
+				"PARTITIONS_FILE": "./sdkconfig/partitions.csv"
+			},
 			"config": {
 				"rotation": 90
+			},
+			"modules": {
+				"pins/*": [
+					"$(MODULES)/pins/i2s/*"
+				],
+				"piu/Sound": [
+					"$(MODULES)/piu/MC/piuSound"
+				]				
+			},
+			"creation": {
+				"static": 131072
 			}
 		}
-	},
-	"strip": [
-		"RegExp",
-		"Proxy",
-		"eval"	
-	]
+	}
 }
