@@ -23,7 +23,12 @@
 				"path": "piu/helloworld-behavior",
 				"author": "Lizzie Prader",
 				"title": "Hello, World - Tappable",
-				"description": "Tap the screen to spell out Hello, World<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Tap the screen to spell out Hello, World<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},
 			{
 				"path": "piu/helloworld-ticking",
@@ -41,37 +46,67 @@
 				"path": "piu/keyboard",
 				"author": "Lizzie Prader",
 				"title": "Keyboard",
-				"description": "Displays an expanding onscreen keyboard designed for small screens<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Displays an expanding onscreen keyboard designed for small screens<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},			
 			{
 				"path": "piu/scrolling-text",
 				"author": "Lizzie Prader",
 				"title": "Scrolling Text",
-				"description": "Scrolls content vertically<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Scrolls content vertically<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},	
 			{
 				"path": "piu/multiple-screens",
 				"author": "Lizzie Prader",
 				"title": "Multiple Screens",
-				"description": "A starter app that demonstrates how to create applications with multiple screens<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "A starter app that demonstrates how to create applications with multiple screens<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},
 			{
 				"path": "piu/anchors",
 				"author": "Lizzie Prader",
 				"title": "Anchors",
-				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Demonstrates a basic use of Piu anchors to create an animated user interface. When you tap the Start button, the background and a colored square flash between two different colors.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},	
 			{
 				"path": "piu/background-color",
 				"author": "Lizzie Prader",
 				"title": "Background Color",
-				"description": "Displays onscreen buttons that change the background color of the screen.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Displays onscreen buttons that change the background color of the screen.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},	
 			{
 				"path": "piu/color-scheme",
 				"author": "Lizzie Prader",
 				"title": "Color Scheme",
-				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Displays onscreen buttons that change the appearance of the application between light and dark modes.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},	
 			{
 				"path": "piu/colored-squares",
@@ -83,7 +118,12 @@
 				"path": "piu/counter",
 				"author": "Lizzie Prader",
 				"title": "Counter",
-				"description": "Tap the + button to increment the counter.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Tap the + button to increment the counter.<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			},	
 			{
 				"path": "piu/graph",
