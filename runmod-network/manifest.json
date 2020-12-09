@@ -3,22 +3,17 @@
 		"$(MODDABLE)/examples/manifest_base.json",
 		"$(MODDABLE)/examples/manifest_net.json",
 		"$(MODDABLE)/modules/network/mdns/manifest.json",
-		"$(MODDABLE)/modules/crypt/tls.json",
-		"$(MODDABLE)/modules/files/preference/manifest.json"
+		"$(MODDABLE)/modules/crypt/tls.json"
 	],
 	"creation": {
 		"keys": {
-			"available": 37
+			"available": 96
 		}
 	},
 	"defines": {
 		"XS_MODS": 1
 	},
 	"modules": {
-		"~": [
-			"$(BUILD)/devices/esp/setup/network",
-			"$(BUILD)/devices/esp32/setup/network"
-		],
 		"*": [
 			"./main",
 			"./../loadmod/*",
@@ -55,5 +50,24 @@
 		"SharedArrayBuffer",
 		"WeakMap",
 		"WeakSet"
-	]
+	],
+	"build": {
+		"NAME": "ch3host"
+	},
+	"platforms": {
+		"esp": {
+			"modules": {
+				"~": [
+					"$(BUILD)/devices/esp/setup/network"
+				]
+			}
+		},
+		"esp32": {
+			"modules": {
+				"~": [
+					"$(BUILD)/devices/esp32/setup/network"
+				]
+			}
+		}
+	}
 }

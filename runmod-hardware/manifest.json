@@ -21,29 +21,32 @@
 	"platforms": {
 		"esp": {
 			"modules": {
-				"*": "$(MODULES)/pins/pwm/esp/*",
+				"*": "$(MODULES)/pins/pwm/esp/*"
 			},
 			"defines": {
 				"i2c": {
 					"sda_pin": 5,
 					"scl_pin": 4
-				},
+				}
 			}
 		},
 		"esp32": {
 			"modules": {
-				"*": "$(MODULES)/pins/pwm/esp32/*",
+				"*": "$(MODULES)/pins/pwm/esp32/*"
 			},
 			"defines": {
 				"i2c": {
 					"sda_pin": 21,
 					"scl_pin": 22
-				},
+				}
 			}
 		},
 		"...": {
 			"error": "Platform not supported"
-		},
+		}
 	},
-	"strip": []
+	"strip": [],
+	"build": {
+		"NAME": "ch6host"
+	}
 }
