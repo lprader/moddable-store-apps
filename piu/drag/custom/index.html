@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line"><label>Button 1</label><input id="BUTTON_1" type="text" value="One"></input></div>
+	<div class="line"><label>Button 2</label><input id="BUTTON_2" type="text" value="Two"></input></div>
+	<div class="line"><label>Button 3</label><input id="BUTTON_3" type="text" value="Three"></input></div>
+	<div class="line"><label>Button 4</label><input id="BUTTON_4" type="text" value="Four"></input></div>
+	<script>
+		function getData() {
+			return {
+				"example.js": {
+					BUTTON_1: document.getElementById("BUTTON_1").value,
+					BUTTON_2: document.getElementById("BUTTON_2").value,
+					BUTTON_3: document.getElementById("BUTTON_3").value,
+					BUTTON_4: document.getElementById("BUTTON_4").value,
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["example.js"];
+			document.getElementById("BUTTON_1").value = file.BUTTON_1;
+			document.getElementById("BUTTON_2").value = file.BUTTON_2;
+			document.getElementById("BUTTON_3").value = file.BUTTON_3;
+			document.getElementById("BUTTON_4").value = file.BUTTON_4;
+		}
+	</script>
+</body>

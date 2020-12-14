@@ -1,0 +1,20 @@
+{
+	"modules": {
+		"*": [
+			"./mod"
+		]
+	},
+	"resources": {
+		"*": [
+			"./assets/temp-disc",
+			"./assets/set-disc",
+			"./assets/down-curve",
+			"./assets/up-curve"
+		],
+		"*-mask": [
+			"./assets/fan",
+			"./assets/flame",
+			"./assets/circle-highlight"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"modules": {
+		"*": [
+			"./mod"
+		]
+	},
+	"resources": {
+		"*": [
+			"./assets/rainbow-grad",
+			"./assets/slider",
+			"./assets/sm-fan",
+			"./assets/sm-flame",
+			"./assets/sm-sun"
+		]
+	}
+}

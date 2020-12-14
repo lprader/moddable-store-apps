@@ -1,0 +1,77 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/examples/manifest_piu.json",
+		"$(MODDABLE)/examples/manifest_net.json"
+	],
+	"defines": {
+		"XS_MODS": 1
+	},
+	"creation": {
+		"static": 38000,
+		"stack": 275,
+		"keys": {
+			"available": 50,
+			"name": 53,
+			"symbol": 3
+		}
+	},
+	"modules": {
+		"*": [
+			"./../../loadmod/*",
+			"./main",
+			"./tempSensor"
+		]
+	},
+	"platforms": {
+		"esp": {
+			"include": [
+				"$(MODDABLE)/modules/files/preference/manifest.json"
+			],
+			"modules": {
+				"*": [
+					"$(MODULES)/network/http/*"
+				],
+				"~": [
+					"$(BUILD)/devices/esp/setup/network"
+				],
+				"setup/rtc": "./setup/rtc"
+			}
+		},
+		"esp32": {
+			"include": [
+				"$(MODDABLE)/modules/files/preference/manifest.json"
+			],
+			"modules": {
+				"*": [
+					"$(MODULES)/network/http/*"
+				],
+				"~": [
+					"$(BUILD)/devices/esp32/setup/network"
+				],
+				"setup/rtc": "./setup/rtc"
+			}
+		}
+	},
+	"resources":{
+		"*-mask": [
+			"./fonts/open-sans-light-num-100",
+			"./fonts/open-sans-reg-18",
+			"./fonts/open-sans-reg-26"
+		],
+		"*": [
+			"./assets/down-arrow",
+			"./assets/up-arrow",
+			"./assets/flame",
+			"./assets/fan"
+		]
+	},
+	"strip": [
+		"eval",
+		"Atomics",
+		"Generator",
+		"RegExp",
+		"SharedArrayBuffer"
+ 	]
+}
+

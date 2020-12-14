@@ -178,6 +178,17 @@
 				"author": "Lizzie Prader",
 				"title": "Custom Text",
 				"description": "Displays custom text onscreen"
+			},
+			{
+				"path": "piu/drag",
+				"author": "Moddable",
+				"title": "Drag",
+				"description": "Move the objects on the screen by touching them and dragging across the screen. This example is great for testing touch on displays.",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.wasm"
+				]	
 			}
 		]
 	},
@@ -432,6 +443,40 @@
 				"title": "Tricolor LED - PWM",
 				"description": "Uses the PWM class to control a tri-color LED<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
 			}	
+		]
+	},
+	"tech.moddable.thermostat-base": {
+		"app": {
+			"title": "Thermostat",
+			"author": "Moddable",
+			"description": "A basic thermostat. You can change change the look of the product and add features with mods.",
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/thermostat/thermostat-base"
+		},
+		"mods": [
+			{
+				"title": "Bubbles",
+				"path": "thermostat-bubbles",
+				"author": "Moddable",
+				"description": "Display features in brightly colored bubbles"
+			},
+			{
+				"title": "Bubbles Plus",
+				"path": "thermostat-bubbles-plus",
+				"author": "Moddable",
+				"description": "Display features in brightly colored bubbles and add the time, date, and weather forecast"
+			},
+			{
+				"title": "Thermostat Plus",
+				"path": "thermostat-base-mod",
+				"author": "Moddable",
+				"description": "Add the time, date, and weather forecast to the basic thermostat"
+			},
+			{
+				"title": "Slider",
+				"path": "thermostat-slider",
+				"author": "Moddable",
+				"description": "Adjust the desired temperature using a rainbow slider"
+			}
 		]
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"modules": {
+		"*": [
+			"./mod"
+		]
+	},
+	"resources": {
+		"*-mask": [
+
+			"./assets/sm-circle-highlight",
+			"./assets/sm-fan",
+			"./assets/sm-flame"
+		],
+		"*": [
+
+			"./assets/set-disc",
+			"./assets/sm-temp-disc",
+			"./assets/tree",
+			"./assets/sm-down-curve",
+			"./assets/sm-up-curve",
+			"./assets/sm-sun"
+		]
+	}
+}

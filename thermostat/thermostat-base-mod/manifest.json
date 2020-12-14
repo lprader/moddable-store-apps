@@ -1,0 +1,14 @@
+{
+	"modules": {
+		"*": [
+			"./mod"
+		]
+	},
+	"resources": {
+		"*": [
+			"./assets/sun",
+			"./assets/sm-up-arrow",
+			"./assets/sm-down-arrow"
+		]
+	}
+}
