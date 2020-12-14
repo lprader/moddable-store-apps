@@ -189,6 +189,12 @@
 					"com.moddable.two",
 					"com.moddable.wasm"
 				]	
+			},
+			{
+				"path": "piu/balls",
+				"author": "Moddable",
+				"title": "Balls",
+				"description": "The balls example shows a full frame rate animation of bouncing balls on the screen. It is not designed for a specific screen size so it is useful for testing displays."
 			}
 		]
 	},
