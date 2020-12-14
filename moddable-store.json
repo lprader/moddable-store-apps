@@ -455,25 +455,25 @@
 		"mods": [
 			{
 				"title": "Bubbles",
-				"path": "thermostat-bubbles",
+				"path": "thermostat/thermostat-bubbles",
 				"author": "Moddable",
 				"description": "Display features in brightly colored bubbles"
 			},
 			{
 				"title": "Bubbles Plus",
-				"path": "thermostat-bubbles-plus",
+				"path": "thermostat/thermostat-bubbles-plus",
 				"author": "Moddable",
 				"description": "Display features in brightly colored bubbles and add the time, date, and weather forecast"
 			},
 			{
 				"title": "Thermostat Plus",
-				"path": "thermostat-base-mod",
+				"path": "thermostat/thermostat-base-mod",
 				"author": "Moddable",
 				"description": "Add the time, date, and weather forecast to the basic thermostat"
 			},
 			{
 				"title": "Slider",
-				"path": "thermostat-slider",
+				"path": "thermostat/thermostat-slider",
 				"author": "Moddable",
 				"description": "Adjust the desired temperature using a rainbow slider"
 			}
