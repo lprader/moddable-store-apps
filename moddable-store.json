@@ -484,39 +484,5 @@
 				"description": "Adjust the desired temperature using a rainbow slider"
 			}
 		]
-	},
-	"tech.moddable.eink-base": {
-		"app": {
-			"title": "Eink Host",
-			"author": "Moddable",
-			"description": "Host for applications designed for a 250x122 Eink display.",
-			"home": "https://github.com/lprader/moddable-store-apps/tree/master/e-ink/eink-base",
-			"preferences": [
-				{
-					"path": "wifi",
-					"title": "Wi-Fi"
-				}
-			]
-		},
-		"mods": [
-			{
-				"title": "Custom countdown",
-				"path": "e-ink/eink-custom",
-				"author": "Moddable",
-				"description": "Countdown to any day of the year"
-			},
-			{
-				"title": "Fortune cookie",
-				"path": "e-ink/eink-fortune",
-				"author": "Moddable",
-				"description": "Display random fortunes on screen"
-			},
-			{
-				"title": "Holiday countdown",
-				"path": "e-ink/eink-holiday",
-				"author": "Moddable",
-				"description": "Countdown to your favorite holiday"
-			}
-		]
 	}
 }
