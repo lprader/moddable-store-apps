@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line">
+		<label>Holiday</label>
+		<select id="HOLIDAY">
+			<option value="christmas">Christmas</option>
+			<option value="fireworks">Fireworks</option>
+			<option value="labor-day">Labor Day</option>
+			<option value="memorial-day">Memorial Day</option>
+			<option value="thanksgiving">Thanksgiving</option>
+		</select>
+	</div>
+	<script>
+		function getData() {
+			const select = document.getElementById("HOLIDAY");
+			return {
+				"manifest.json": {
+					christmas: select.value,
+				},
+				"mod.js": {
+					christmas: select.value,
+					Christmas: select.options[select.selectedIndex].text,
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["manifest.json"];
+			document.getElementById("HOLIDAY").value = file.christmas;
+		}
+	</script>
+</body>

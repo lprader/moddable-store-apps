@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link type="text/css" rel="stylesheet" href="/assets/custom.css"/>
+</head>
+<body>
+	<div class="line"><label>Event</label><input id="EVENT" type="text" value=""></input></div>
+	<div class="line"><label>Date</label><input id="DATE" type="date"></input></div>
+	<script>
+		function getData() {
+			return {
+				"mod.js": {
+					EVENT: document.getElementById("EVENT").value,
+					DATE: document.getElementById("DATE").value,
+				},
+			};
+		}
+		function setData(data) {
+			const file = data["mod.js"];
+			document.getElementById("EVENT").value = file.EVENT;
+			document.getElementById("DATE").value = file.DATE;
+		}
+	</script>
+</body>

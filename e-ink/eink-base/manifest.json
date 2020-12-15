@@ -1,0 +1,74 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/examples/manifest_piu.json"
+	],
+	"creation": {
+		"keys": {
+			"available": 64,
+			"name": 53,
+			"symbol": 3
+		}
+	},
+	"modules": {
+		"*": [
+			"./../../loadmod/*",
+			"./main"
+		]
+	},
+	"preload": [
+		"loadmod"
+	],
+	"resources":{
+		"*-alpha": [
+			"./fonts/open-sans-18-reg",
+			"./fonts/open-sans-24-reg",
+			"./fonts/open-sans-32-reg",
+			"./fonts/open-sans-44-reg"
+		],
+		"*-mask": [
+			"./moddable"
+		]
+	},
+	"defines": {
+		"XS_MODS": 1
+	},
+	"strip": [
+		"eval",
+		"Atomics",
+		"Generator",
+		"RegExp",
+		"SharedArrayBuffer",
+		"Map",
+		"Set",
+		"WeakMap",
+		"WeakSet",
+		"WeakRef",
+		"FinalizationRegistry",
+		"Proxy"
+	],
+	"config": {
+		"sntp": "pool.ntp.org"
+	},
+	"platforms": {
+		"esp/crystalfontz_monochrome_epaper": {
+			"config": {
+				"rotation": 270
+			}
+		},
+		"esp/moddable_three": {
+			"config": {
+				"rotation": 270
+			},
+			"include": [
+				"$(MODDABLE)/examples/manifest_net.json",
+				"$(MODDABLE)/modules/files/preference/manifest.json"
+			],
+			"modules": {
+				"~": "$(BUILD)/devices/esp/setup/network",
+				"setup/rtc": "./setup/rtc"
+			},
+			"preload": "setup/rtc"
+		}
+	}
+}
