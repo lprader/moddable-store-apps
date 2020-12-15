@@ -490,7 +490,13 @@
 			"title": "Piu+HTTP Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use the Piu user interface framework, Wi-Fi, and HTTP.",
-			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu-http"
+			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu-http",
+			"preferences": [
+				{
+					"path": "wifi",
+					"title": "Wi-Fi"
+				}
+			]
 		},
 		"mods": [
 			{
