@@ -487,7 +487,7 @@
 	},
 	"tech.moddable.runmod-piu-http": {
 		"app": {
-			"title": "Piu+HTTP Host",
+			"title": "Piu & HTTP Host",
 			"author": "Lizzie Prader",
 			"description": "Host for applications that use the Piu user interface framework, Wi&#8209;Fi, and HTTP.",
 			"home": "https://github.com/lprader/moddable-store-apps/tree/master/runmod-piu-http",
@@ -503,7 +503,13 @@
 				"title": "Weather",
 				"path": "piu-http/weather",
 				"author": "Moddable",
-				"description": "Retrieves and displays the weather forecast for five different cities."
+				"description": "Retrieves and displays the weather forecast for five different cities"
+			},
+			{
+				"title": "Clock",
+				"path": "piu-http/clock",
+				"author": "Lizzie Prader",
+				"description": "Retrieves the time from time.jsontest.com and displays the time on screen"
 			}
 		]		
 	}
