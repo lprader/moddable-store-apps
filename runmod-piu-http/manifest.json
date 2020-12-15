@@ -1,0 +1,64 @@
+{
+	"include": [
+		"$(MODDABLE)/examples/manifest_base.json",
+		"$(MODDABLE)/examples/manifest_net.json",
+		"$(MODDABLE)/examples/manifest_piu.json",
+		"$(MODDABLE)/modules/files/preference/manifest.json"
+	],
+	"creation": {
+		"keys": {
+			"available": 96
+		}
+	},
+	"config": {
+	    "autorotate": false
+	},
+	"defines": {
+		"XS_MODS": 1
+	},
+	"modules": {
+		"~": [
+			"$(BUILD)/devices/esp/setup/network",
+			"$(BUILD)/devices/esp32/setup/network"
+		],
+		"*": [
+			"./main",
+			"./../loadmod/*",
+			"$(MODULES)/network/http/*"
+		]
+	},
+	"preload": [
+		"loadmod",
+		"main",
+		"http"
+	],
+	"resources": {
+		"*-alpha": [
+			"./OpenSans-Regular-24",
+			"./OpenSans-Regular-52"
+		]
+	},	
+	"strip": [
+		"Atomics",
+		"eval",
+		"Function",
+		"Generator",
+		"Proxy",
+		"Reflect",
+		"RegExp",
+		"Set",
+		"SharedArrayBuffer",
+		"WeakMap",
+		"WeakSet"
+	],
+	"platforms": {
+		"esp32": {
+			"build": {
+				"PARTITIONS_FILE": "./sdkconfig/partitions.csv"
+			},
+			"creation": {
+				"static": 131072
+			}
+		}
+	}
+}
