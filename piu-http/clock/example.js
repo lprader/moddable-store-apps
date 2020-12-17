@@ -12,15 +12,12 @@
  *
  */
 
-import Time from "time";
 import { Request } from "http";
 
 const BACKGROUND_COLOR = "#1932ab";
 const TEXT_COLOR = "white";
 
 const backgroundSkin = new Skin({ fill:BACKGROUND_COLOR });
-
-const smallTextStyle = new Style({ font: "24px Open Sans", color: TEXT_COLOR });
 const largeTextStyle = new Style({ font: "52px Open Sans", color: TEXT_COLOR });
 
 class ClockBehavior extends Behavior {
@@ -61,23 +58,4 @@ const Clock = Label.template($ => ({
 	Behavior: ClockBehavior
 }));
 
-const ErrorText = Label.template($ => ({
-	top: 0, bottom: 0, left: 0, right: 0,
-	skin: backgroundSkin, style: smallTextStyle,
-	string: $
-}));
-
-let request = new Request({
-	host: "time.jsontest.com",
-	response: String
-});
-request.callback = (message, value) => {
-	if (Request.responseComplete == message) {
-		let data = JSON.parse(value);
-		Time.set(data.milliseconds_since_epoch/1000);
-		application.add(new Clock);
-	}
-	else if (Request.error == message) {
-		application.add(new ErrorText("HTTP request failed"));
-	}
-}
+application.add(new Clock);

@@ -509,7 +509,7 @@
 				"title": "Clock",
 				"path": "piu-http/clock",
 				"author": "Lizzie Prader",
-				"description": "Retrieves the time from time.jsontest.com and displays the time on screen"
+				"description": "Sets the system time and displays the time on screen"
 			}
 		]		
 	}

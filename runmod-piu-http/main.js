@@ -16,6 +16,8 @@ import LoadMod from "loadmod";
 import WiFi from "wifi";
 import Net from "net";
 import Preference from "preference";
+import SNTP from "sntp";
+import Time from "time";
 
 const TextStyle = Style.template({
     font: "24px Open Sans",
@@ -45,7 +47,16 @@ class AppBehavior extends Behavior {
 				case "gotIP":
 					app.first.string = `IP address ${Net.get("IP")}`;
 					monitor.close();
-					LoadMod.load("example");
+					new SNTP({host: "pool.ntp.org"}, function(message, value) {
+						if (1 === message) {
+							Time.set(value);
+							LoadMod.load("example");
+						}
+						else if (message < 0)
+							app.first.string = "Can't get time";
+						else
+							return;
+					});
 					break;
 
 				case "connect":
@@ -57,7 +68,7 @@ class AppBehavior extends Behavior {
 					break;
 			}
 		});
-		}
+	}
 }
 
 export default function() {
