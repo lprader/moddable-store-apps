@@ -58,4 +58,5 @@ const Clock = Label.template($ => ({
 	Behavior: ClockBehavior
 }));
 
+Time.timezone = parseInt("TIMEZONE_OFFSET", 10)*3600;
 application.add(new Clock);
