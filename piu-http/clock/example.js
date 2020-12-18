@@ -12,7 +12,7 @@
  *
  */
 
-import { Request } from "http";
+import Time from "time";
 
 const BACKGROUND_COLOR = "#1932ab";
 const TEXT_COLOR = "white";
