@@ -423,7 +423,23 @@
 				"path": "hardware/servo",
 				"author": "Lizzie Prader",
 				"title": "Servo",
-				"description": "Rotates a servo from 0 degrees up to 180 degrees, 2.5 degrees at a time<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>"
+				"description": "Rotates a servo from 0 degrees up to 180 degrees, 2.5 degrees at a time<BR><BR>From the book <a target='_blank' href='https://www.keplers.com/book/9781484250693'>IoT Development for ESP32 and ESP8266 with JavaScript</a>",
+				"devices": [
+					"com.moddable.one",
+					"com.moddable.two",
+					"com.moddable.three",
+					"com.nodemcu.esp32",
+					"com.nodemcu.esp8266",
+					"com.m5stack",
+					"com.m5stack.core2",
+					"com.m5stack.fire",
+					"com.sparkfun.thing",
+					"com.m5stick.c",
+					"com.m5atom.echo",
+					"com.m5atom.lite",
+					"com.m5atom.matrix",
+					"com.esp32.wrover"
+				]	
 			},
 			{
 				"path": "hardware/tmp102",
