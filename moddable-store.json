@@ -558,5 +558,19 @@
 				}
 			]
 		}
+	},
+	"tech.moddable.qrcode": {
+		"app": {
+			"title": "QR Code",
+			"author": "Peter Hoddie",
+			"description": "Displays a QR code on screen.<BR><BR>You can read more about this app in the blog post <a target='_blank' href='https://blog.moddable.com/blog/qrcode/'>QR Code module for the Moddable SDK</a>.",
+			"home": "https://github.com/Moddable-OpenSource/moddable/tree/public/examples/data/qrcode",
+			"preferences": [
+				{
+					"path": "data",
+					"title": "QR Code Data"
+				}
+			]
+		}
 	}
 }
